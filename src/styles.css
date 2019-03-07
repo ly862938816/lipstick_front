@@ -205,3 +205,5 @@
     transform: translateX(100%);
     border-left: 1px solid;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

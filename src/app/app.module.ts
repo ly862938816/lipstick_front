@@ -12,6 +12,9 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { RightscreenComponent } from './rightscreen/rightscreen.component';
 import { BoardlistComponent } from './boardlist/boardlist.component';
 import { ProductsComponent } from './products/products.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { ProductsComponent } from './products/products.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
