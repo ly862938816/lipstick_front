@@ -1,0 +1,34 @@
+/* the side navgation menu 右边栏的样式*/
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 56px;
+    left: 0;
+    background: pink;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+}
+
+
+/*the navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* when you mouse over the navigation links change their color*/
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: plum;
+}

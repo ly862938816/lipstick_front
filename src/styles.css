@@ -1,0 +1,207 @@
+.login_sidenav {
+    height: 100%;
+    width: 450px;
+    position: fixed;
+    z-index: 2;
+    background-color: #111111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    color: lightgray;
+    visibility: hidden;
+}
+
+.login_sidenav_fade {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.login_sidenav .row {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.sidenav-input {
+    padding: 5px;
+    font-size: 24px;
+    color: midnightblue;
+}
+
+.login_sidenav .closebtn {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.login_sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+.login_sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* 滑板展示的样式 */
+
+.board_panel {
+    padding: 10px;
+}
+
+.board_inner_panel {
+    background-color: white;
+    padding: 15px;
+    border-left: solid 10px;
+    border-left-color: #016876;
+    cursor: pointer;
+}
+
+.board_title_row {
+    padding-bottom: 10px;
+    border-bottom: solid 4px #016876;
+    margin-right: 5px;
+    /*background-color: dimgray;*/
+}
+
+.board_name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.no_padding_left {
+    padding-left: 0px;
+}
+
+.rrd_logo_class {
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.jpa_logo_class {
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.board_details_row {
+    margin-top: 5px;
+}
+
+.thumb_img_height {
+    height: 120px;
+}
+
+
+/* The side navigation menu */
+
+
+/* The navigation menu links */
+
+.sidenav h1 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+.filterHeader {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+    display: block;
+    transition: 0.3s
+}
+
+.filterItem {
+    font-size: 16px;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 250px;
+    /* 0 width - change this with JavaScript */
+    position: absolute;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 50px;
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.3s;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+#main {
+    margin-left: 250px;
+    transition: .3s;
+}
+
+#main-body {
+    transition: .3s;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.row-content-header {
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/* The Overlay (background) */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 54px;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.3s;
+    transform: translateX(100%);
+    border-left: 1px solid;
+}

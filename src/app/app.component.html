@@ -1,0 +1,21 @@
+<navbar-component></navbar-component>
+<app-sidenav (notify)='onNotifyFilter($event)'></app-sidenav>
+<app-rightscreen (notify)='onNotifyRightWindow($event)'></app-rightscreen>
+<login-component></login-component>
+<div id="main" class="main-content-panel">
+    <div class="row" style="margin-right:0px;">
+        <div class="col-sm-1">
+
+            <button class="btn button-no-borders" style="background:pink; color: white" (click)="showHideSideClicked()">
+                <span id="show-hide-side-button" class="fa fa-chevron-right"></span>
+            </button>
+
+        </div>
+        <div class="col-sm-11">
+            <div class="row-content-header"> {{title}} </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <app-boardlist (notify)='onNotifyBoardList($event)'></app-boardlist>
+    </div>
+</div>
